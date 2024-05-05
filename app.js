@@ -13,14 +13,14 @@ geocode.geoCode(address, (geoCodeError, { latitude, longitude, location } = {}) 
 {
     if (geoCodeError)
     {
-        return console.log("Error", geoCodeError);
+        return console.log("GeoCode Error", geoCodeError);
     }
 
     forecast.forecast(latitude, longitude, (forecastError, { weatherForecast } = {}) =>
     {
         if (forecastError)
         {
-            return console.log("Error", forecastError);
+            return console.log("Forecast Error", forecastError);
         }
 
         console.log(location);

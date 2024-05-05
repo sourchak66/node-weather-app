@@ -10,8 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "postman-request": "^2.88.1-postman.33",
     "request": "^2.88.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourchak66/node-weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourchak66/node-weather-app/issues"
+  },
+  "homepage": "https://github.com/sourchak66/node-weather-app#readme",
   "description": ""
 }
